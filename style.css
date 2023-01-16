@@ -538,9 +538,21 @@ span .age{
 }
 
 /* media queries */
-@media screen and(min-width:576px){
+@media screen and (max-width:576px){
     .home__img img{
-        width: 330px;
+        width: 380px;
+        margin-left: 8rem;
+        margin-top:  4rem ;
+    }
+    .home__social{
+        display: flex;
+        flex-direction:row;
+        /* margin:auto; */
+        justify-content: space-evenly;
+        margin-top: 13rem;
+    }
+    .home__img{
+        margin-top: 5rem;
     }
     .about__container , .qualification__container , .portfolio__container {
         grid-template-columns: repeat(2,1fr);
@@ -549,6 +561,11 @@ span .age{
         width: 450px;
         justify-self: center;
     }
+    .img-about{
+        width: 400px;
+        display: flex;
+        margin: auto;
+    }   
 }
 @media screen and (min-width:768px){
     body{
