@@ -47,6 +47,7 @@
     --smaller-font-size:.813rem;
     }
 }
+
 /* BASE */
 *,::before,::after{
     box-sizing: border-box;
@@ -538,7 +539,7 @@ span .age{
 }
 
 /* media queries */
-@media screen and (max-width:576px){
+@media screen and (max-width: 576px) {
     .home__img img{
         width: 380px;
         margin-left: 8rem;
@@ -567,6 +568,7 @@ span .age{
         margin: auto;
     }   
 }
+
 @media screen and (min-width:768px){
     body{
         margin: 0;
@@ -618,7 +620,7 @@ span .age{
         width: 440px;
     }
     .img-about{
-        height: 500px;
+        height: 440px;
         display: block;
         margin-left: auto;
         margin-right: auto;
