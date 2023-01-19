@@ -542,7 +542,7 @@ span .age{
 @media screen and (max-width: 576px) {
     .home__img img{
         width: 380px;
-        margin-left: 8rem;
+        margin-left: 7rem;
         margin-top:  4rem ;
     }
     .home__social{
